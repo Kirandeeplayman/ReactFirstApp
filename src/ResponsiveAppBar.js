@@ -32,6 +32,8 @@ function ResponsiveAppBar() {
   };
 
   const handleCloseUserMenu = () => {
+    console.log(123);
+    
     setAnchorElUser(null);
   };
 
